@@ -1,0 +1,9 @@
+name = "garden-habibullah-dev-notion-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-01-08"
+workers_dev = true
+
+routes = [
+	{ pattern = "garden.habibullah.dev", custom_domain = true },
+	{ pattern = "www.garden.habibullah.dev", custom_domain = true }
+]
